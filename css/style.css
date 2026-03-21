@@ -1,0 +1,13 @@
+body {
+  background: url(/vite-project/src/assets/bgBody.png) no-repeat center/cover;
+  height: 100vh;
+}
+
+.search {
+  background: url(/vite-project/src/assets/pic.png) no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+}
+.search-title {
+  color: aqua;
+}

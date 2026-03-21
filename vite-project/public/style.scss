@@ -1,0 +1,59 @@
+//  *{
+//    margin: 0;
+//    padding: 0;
+//  } 
+body{
+  background: url(/vite-project/src/assets/bgBody.png)no-repeat center/cover;
+  height: 100vh;
+}
+.search{
+  background: url(/vite-project/src/assets/pic.png)no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  &-event{
+
+  }
+  &-title{
+    color: aqua;
+  }
+  &-inputs{
+    &-concert{
+      &-button{
+        &-start{
+
+        }
+      }
+    }
+    &-country{
+      &-button{
+        &-start{
+
+        }
+      }
+    }
+  }
+}
+.cards{
+  &-card{
+    &-img{
+
+    }
+    &-title{
+
+    }
+    &-time{
+
+    }
+    &-place{
+
+    }
+  }
+}
+.footer{
+  &-page{
+
+  }
+  &-last{
+
+  }
+}
