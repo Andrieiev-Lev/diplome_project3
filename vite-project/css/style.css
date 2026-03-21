@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  background: url(../src/assets/bgBody.png) no-repeat center/cover;
+  height: 100vh;
+}
+
+.search {
+  background: url(../src/assets/nav.png) no-repeat center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 446px;
+}
+
+.search-event {
+  align-self: flex-start;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.search-title {
+  color: #DC56C5;
+  width: 600px;
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+  color: #dc56c5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.search-inputs {}
+
+.in_concert {
+  position: relative;
+}
+
+.in_concert::after {
+  content: '';
+  position: absolute;
+  background: url(../src/assets/search_concert.png) no-repeat center/cover;
+  width: 12px;
+  height: 12px;
+  right: 55px;
+  top: 3px;
+}
+
+.search-inputs-concert {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #939393;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  padding: 10px 0px 10px 30px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+.search-inputs-concert-button {}
+
+.search-inputs-concert-button-start {}
+
+.in_country {
+  position: relative;
+}
+
+.in_country::after {
+  content: '';
+  position: absolute;
+  background: url(../src/assets/seach_country.png) no-repeat center/cover;
+  width: 15px;
+  height: 10px;
+  right: 25px;
+  top: 6px;
+}
+
+.search-inputs-country {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #939393;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  padding: 10px 0px 10px 30px;
+  border-radius: 20px;
+}
+
+
+.search-inputs-country-button {}
+
+.search-inputs-country-button-start {}
+
+.cards-card {}
+
+.cards-card-img {}
+
+.cards-card-title {}
+
+.cards-card-time {}
+
+.cards-card-place {}
+
+.footer-page {}
+
+.footer-last {}
+
+input:focus-visible {
+  outline: none;
+}

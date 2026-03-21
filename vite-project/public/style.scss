@@ -1,59 +1,59 @@
-//  *{
-//    margin: 0;
-//    padding: 0;
-//  } 
-body{
-  background: url(/vite-project/src/assets/bgBody.png)no-repeat center/cover;
-  height: 100vh;
-}
-.search{
-  background: url(/vite-project/src/assets/pic.png)no-repeat center/cover;
-  display: flex;
-  justify-content: center;
-  &-event{
+// //  *{
+// //    margin: 0;
+// //    padding: 0;
+// //  } 
+// body{
+//   background: url(/vite-project/src/assets/bgBody.png)no-repeat center/cover;
+//   height: 100vh;
+// }
+// .search{
+//   background: url(/vite-project/src/assets/pic.png)no-repeat center/cover;
+//   display: flex;
+//   justify-content: center;
+//   &-event{
 
-  }
-  &-title{
-    color: aqua;
-  }
-  &-inputs{
-    &-concert{
-      &-button{
-        &-start{
+//   }
+//   &-title{
+//       color: aquamarine;
+//   }
+//   &-inputs{
+//     &-concert{
+//       &-button{
+//         &-start{
 
-        }
-      }
-    }
-    &-country{
-      &-button{
-        &-start{
+//         }
+//       }
+//     }
+//     &-country{
+//       &-button{
+//         &-start{
 
-        }
-      }
-    }
-  }
-}
-.cards{
-  &-card{
-    &-img{
+//         }
+//       }
+//     }
+//   }
+// }
+// .cards{
+//   &-card{
+//     &-img{
 
-    }
-    &-title{
+//     }
+//     &-title{
 
-    }
-    &-time{
+//     }
+//     &-time{
 
-    }
-    &-place{
+//     }
+//     &-place{
 
-    }
-  }
-}
-.footer{
-  &-page{
+//     }
+//   }
+// }
+// .footer{
+//   &-page{
 
-  }
-  &-last{
+//   }
+//   &-last{
 
-  }
-}
+//   }
+// }
