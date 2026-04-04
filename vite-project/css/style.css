@@ -119,7 +119,7 @@ body {
 }
 
 .cards-card-time {
-  color: #FFFFFF;
+  color: #ffffff;
   justify-content: center;
   text-align: center;
   margin: 5px 0 5px 0;
@@ -146,7 +146,7 @@ body {
 }
 
 .modal {
-  background: #FFF2FD;
+  background: #dcec89;
   border-radius: 240px 0;
   width: 700px;
   max-height: 520px;
@@ -225,6 +225,7 @@ font-family: var(--font-family);
 font-weight: 500;
 font-size: 16px;
 color: #4c00fe;
+background: #dcec89;
 border: 1px solid #4c00fe;
 }
 
