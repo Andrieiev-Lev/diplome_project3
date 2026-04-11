@@ -17,10 +17,29 @@ modalCLose.addEventListener('click', function () {
 
 
 const postList = document.querySelector(".cards");
+const search = document.querySelector('.search-inputs-concert')
+let currentPage = 1
+
+search.addEventListener("keydown", async (event) => {
+  if (event.key === "Enter") {
+    try {
+      currentPage = 1;
+      postList.innerHTML = "";
+
+      const images = await fetchPosts();
+      renderPosts(images);
+
+      currentPage += 1;
+    } catch (error) {
+      console.error("Ошибка при загрузке:", error);
+    }
+  }
+});
 
 async function paintMarkup() {
     try {
         const posts = await fetchPosts();
+        console.log(posts)
         renderPosts(posts);
     } catch (error) {
         console.log(error);
@@ -39,8 +58,7 @@ paintMarkup()
 
 function renderPosts(posts) {
     console.log(posts[0].images[0].url)
-    const markup = posts
-        .map((concert,index) => {
+    const markup = posts.map((concert,index) => {
             return `<li>
         <img src="${concert.images[index].url}" alt="error" class="cards-card-img">
         <h3 class="cards-card-title">${concert.name}${index}</h3>
