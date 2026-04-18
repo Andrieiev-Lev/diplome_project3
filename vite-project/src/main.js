@@ -53,7 +53,7 @@ paintMarkup()
 function renderPosts(posts) {
     const markup = posts.map((concert, index) => {
         const imageUrl = concert.images && concert.images.length > 0 ? concert.images[0].url : 'https://via.placeholder.com/300'
-        return `<li>
+        return `<li class="cards-card">
             <img src="${imageUrl}" alt="${concert.name}" class="cards-card-img">
             <h3 class="cards-card-title">${concert.name}</h3>
             <h3 class="cards-card-time">${concert.dates.start.localDate}</h3>
